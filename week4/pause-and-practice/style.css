@@ -1,0 +1,12 @@
+* {
+    height: 2000px;
+}
+
+div {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}

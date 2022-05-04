@@ -1,0 +1,1 @@
+var element = document.getElementById("myH1Element").textContent = "Hello World!";

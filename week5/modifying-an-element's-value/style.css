@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 980px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#input1 {
+    margin: 15px;
+}
+
+#input2 {
+    margin: 15px;
+}
+
+#input3 {
+    margin: 15px;
+}
+
+button {
+    margin: 15px;
+}

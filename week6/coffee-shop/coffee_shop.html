@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue's Brew Coffee Shop</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Blue's Brews coffee shop</h1>
+    </header>
+
+    <div id="greeting">
+        <h1>Welcome to Blue's Brews coffee shop!</h1><br>
+        <h3>Take a look around and please order from the following list.</h3>
+        <hr>
+    </div>
+
+
+    <section>
+        <form action="#">
+            <ul>
+                <p><img src="https://cdn.pixabay.com/photo/2012/04/14/15/14/coffee-34251_960_720.png" alt="coffee"
+                        height="200" width="auto"></p>
+                <li class="itemPrice">Coffee: $2.00 each<br>
+                    <label for="quantity1">Quantity: </label>
+                    <input type="number" id="quantity1" name="quantity1" value="0" max="10">
+                </li>
+
+                <hr>
+
+                <img src="https://images.pexels.com/photos/7488733/pexels-photo-7488733.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="iced coffee" height="200" width="auto">
+                <li class="itemPrice">Iced Coffee: $2.00 each<br>
+                    <label for="quantity2">Quantity: </label>
+                    <input type="number" id="quantity2" name="quantity2" value="0" max="10">
+                </li>
+
+                <hr>
+
+                <img src="https://images.pexels.com/photos/734983/pexels-photo-734983.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="tea" height="200" width="auto">
+                <li class="itemPrice">Tea: $1.75 each<br>
+                    <label for="quantity3">Quantity: </label>
+                    <input type="number" id="quantity3" name="quantity3" value="0" max="10">
+                </li>
+
+                <hr>
+
+                <img src="https://images.unsplash.com/photo-1558745010-d2a3c21762ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                    alt="bagel" height="200" width="auto">
+
+                <li class="itemPrice">Bagel with Cream Cheese: $2.50 each<br>
+                    <label for="creamCheese">Cream Cheese:</label>
+                    <!-- <select name="dropdown" name="dropdown">
+                        <option value="Plain" selected>Plain</option>
+                        <option value="light">Light</option>
+                        <option value="strawberry">Strawberry</option>
+                        <option value="vegetable">Vegetable</option>
+                    </select> -->
+                    <label for="quantity4">Quantity: </label>
+                    <input type="number" id="quantity4" name="quantity4" value="0" max="10">
+                </li>
+
+                <hr>
+
+                <img src="https://images.unsplash.com/photo-1599394922679-1214f9ee16e8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                    alt="muffin" height="200" width="auto">
+                <li class="itemPrice">Muffins: $2.30 each<br>
+                    <label for="muffinChoice">Type: </label>
+                    <!-- <select name="dropdown" name="dropdown">
+                        <option value="blueberry" selected>Blueberry</option>
+                        <option value="chocolateChip">Chocolate Chip</option>
+                        <option value="bananaNut">Banana Nut</option>
+                    </select> -->
+                    <label for="quantity5">Quantity: </label>
+                    <input type="number" id="quantity5" name="quantity5" value="0" max="10">
+                </li>
+
+                <hr>
+
+                <img src="https://images.unsplash.com/photo-1552320764-9fc870798a3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                    alt="parfait" height="200" width="auto">
+                <li class="itemPrice">Parfait: $2.15 each<br>
+                    <label for="quantity6">Quantity: </label>
+                    <input type="number" id="quantity6" name="quantity6" value="0" max="10">
+                </li>
+
+                <hr>
+
+                <img src="https://images.unsplash.com/photo-1548365328-8c6db3220e4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80"
+                    alt="cookies" height="200" width="auto">
+                <li class="itemPrice">Chocolate Chip Cookies: $1.00 each<br>
+                    <label for="quantity7">Quantity: </label>
+                    <input type="number" id="quantity7" name="quantity7" value="0" max="10">
+                </li>
+
+                <hr>
+
+                <img src="https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="salad" height="200" width="auto">
+                <li class="itemPrice">House Salad: $4.75 each<br>
+                    <label for="saladDressing">Dressing:</label><br>
+                    <!-- <select name="dropdown" name="dropdown">
+                        <option value="ranch" selected>Ranch</option>
+                        <option value="italian">Italian</option>
+                        <option value="balsamicVinagrette">Balsamic Vinagrette</option>
+                        <option value="blueCheese">Blue Cheese</option>
+                    </select> -->
+                    <label for="quantity8">Quantity: </label>
+                    <input type="number" id="quantity8" name="quantity8" value="0" max="10">
+                </li>
+                <button id="button">Submit</button>
+        </form>
+    </section>
+
+    <div id="totals">
+        <h4>Amount of Items Purchased:</h4>
+        <p id="totalAmount"></p>
+
+        <h4>Total Price:</h4>
+        <p id="totalPrice"></p>
+    </div>
+
+    <footer>
+        <div>
+            <p>Email us at BluesBrews@gmail.com<br>
+            <a href="bluesbrewscoffeeshop.com">Official Site</a>
+        </div>
+
+        <div>
+        <p>123 Mockingbird Road<br>
+            West End, NC 27376
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Other Types of HTML Inputs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#" name="myForm">
+        <label for="firstName">First name:</label>
+        <input type="text" name="firstName"><br>
+
+        <label for="lastName">Last name:</label>
+        <input type="text" name="lastName"><br>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age">
+
+        <hr>
+
+        <p>Do you like pizza?</p>
+
+        <label for="questionOne">Yes</label>
+        <input type="radio" name="questionOne" value="yes">
+
+        <label for="questionOneNo">No</label>
+        <input type="radio" name="questionOne" value="no">
+
+        <hr>
+
+        <p>How likely are you to eat pizza for lunch?</p>
+
+        <label for="questionTwo"></label>
+        <select name="questionTwo">
+            <option value="Not likely">Not likely</option>
+            <option value="Somewhat likely">Somewhat likely</option>
+            <option value="Very likely!">Very likely!</option>
+        </select>
+
+        <hr>
+
+        <p>What are your favorite pizza toppings?</p>
+
+        <label for="checkBox1">Pepperoni</label>
+        <input type="checkbox" name="toppings" id="checkBox1" value="pepperoni"><br>
+
+        <label for="checkBox2">Mushrooms</label>
+        <input type="checkbox" name="toppings" id="checkBox2" value="mushrooms"><br>
+
+        <label for="checkBox3">Peppers</label>
+        <input type="checkbox" name="toppings" id="checkBox3" value="peppers"><br>
+
+        <button>Submit</button>
+    </form>
+    <script src="otherFormInputs.js"></script>
+</body>
+
+</html>
