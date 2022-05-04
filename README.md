@@ -1,3 +1,2 @@
-# fsw-110
-Document Object Model
-# fsw-110
+# FSW-110—Document Object Model
+Students will learn how the Document Object Model (DOM) Standard represents a web page as a tree-structure, permitting programmatic manipulation of, and dynamic changes to, any part of a web page. Students will use JavaScript and the DOM API to create interactive and engaging websites. Students will practice skills that demonstrate professional attitude and behavior (e.g. teamwork, leadership, and communication).
